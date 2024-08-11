@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 //create express apps
 const app = express();
-const port = 5001;
+const port = process.env.PORT || 5001;
 
 //serve static files from 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
