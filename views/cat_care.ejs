@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/styles/q7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/scripts/q7.js" defer></script>
+</head>
+<body>
+    <%- include('header') %>
+    <div class="container">
+        <nav>
+            <ul id="navbar">
+                <li><a href="/">Home Page</a></li>
+                <li><a href="/find_pet">Find a dog/cat</a></li>
+                <li><a href="/dog_care">Dog Care</a></li>
+                <li><a href="/cat_care">Cat Care</a></li>
+                <li><a href="/pet_giveaway">Have a pet to give away</a></li>
+                <li><a href="/contact_us">Contact Us</a></li>
+                <li><a href="/create_account">Create an account</a></li>
+                <li><a href="/logout">Log out</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <p>A cat can be the excellent companion. However it is important to know how to properly take care of your pet.<br>
+                The information below can be a good starter guide.</p>
+            <h2>Feeding</h2>
+            <p>To provide a well balanced diet for your cat, we suggest feeding your cat high quality brand-name cat food.</p>
+            <h2>Vaccines</h2>
+            <p>It is good to take caution and visit a vet to provide your pet with the necessary vaccinations.</p>
+            <h2>Grooming</h2>
+            <p>Unlike dogs, cats are able to keep themselves clean and rarely require baths.<br>
+            We recommend brushing their fur to keep it clean and tidy instead.</p>
+            <p style="font-size: small;">This information was taken from <a href="https://www.aspca.org/pet-care/cat-care/general-cat-care" style="font-weight: bold;text-decoration: none;" target="_blank">aspca.org</a>. Visit this link for more information.</p>
+        </div>
+    </div>
+    <%- include('footer') %>
+</body>
+</html>
