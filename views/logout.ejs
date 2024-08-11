@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account page</title>
+    <link rel="stylesheet" href="/styles/q7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/scripts/q7.js" defer></script>
+</head>
+<body>
+    <%- include('header') %>
+    <div class="container">
+        <nav>
+            <ul id="navbar">
+                <li><a href="/">Home Page</a></li>
+                <li><a href="/find_pet">Find a dog/cat</a></li>
+                <li><a href="/dog_care">Dog Care</a></li>
+                <li><a href="/cat_care">Cat Care</a></li>
+                <li><a href="/pet_giveaway">Have a pet to give away</a></li>
+                <li><a href="/contact_us">Contact Us</a></li>
+                <li><a href="/create_account">Create an account</a></li>
+                <li><a href="/logout">Log out</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <% if (message) { %>
+                <div class="message">
+                    <p><%= message %></p>
+                </div>
+            <% } %>
+        </div>
+    </div>
+    <%- include('footer') %>
+</body>
+</html>
