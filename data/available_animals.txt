@@ -1,4 +1,4 @@
 1:tony:Dog:Pomeranian - Dog:Puppy/Kitten (0-1 year):Female:Gets along with other cats
 2:tony:Dog:Bulldog - Dog:Puppy/Kitten (0-1 year):Female:Gets along with other cats
-3:tony:Dog:Golden retreiever - Dog:Senior (7+ years):Male:Gets along with other dogs
+3:tony:Dog:Golden retriever - Dog:Senior (7+ years):Male:Gets along with other dogs
 4:Tony:Dog:Persian - Cat:Adult (3-7 years):Female:Gets along with other dogs
